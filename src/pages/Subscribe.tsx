@@ -5,7 +5,7 @@ import { useCreateSubscriberMutation } from "../graphql/generated";
 import "../styles/global.css"
 
 
-const mockupURL = new URL('/src/assets/code-mockup.png', import.meta.url).href
+import mockupURL from '/src/assets/code-mockup.png'
 
 
 
