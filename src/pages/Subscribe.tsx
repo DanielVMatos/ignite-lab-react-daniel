@@ -5,10 +5,12 @@ import { useCreateSubscriberMutation } from "../graphql/generated";
 import "../styles/global.css"
 
 
+const mockupURL = new URL('/src/assets/code-mockup.png', import.meta.url).href
+
 
 
 export function Subscribe() {
-    const mockupURL = new URL('/src/assets/code-mockup.png', import.meta.url).href
+
     const navigate = useNavigate()
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -69,7 +71,7 @@ export function Subscribe() {
                 </div>
 
             </div>
-            <img src={mockupURL} className="mt-10" alt="" />
+            <img src={mockupURL} className="mt-10" alt="imagem do vscode com codigos" />
 
         </div>
     )
