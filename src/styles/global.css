@@ -8,7 +8,7 @@ body {
 }
 
 @media only screen and (max-width: 817px){
-  svg{
+  .Logo svg{
     display:flex;
     margin:0 auto;
   }
